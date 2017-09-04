@@ -40,12 +40,12 @@ public class PageGenerator extends HttpServlet {
             out.println("<title>Page Table</title>");
             out.println("<h1 onclick=\"filltable()\"> Type of Fruits </h1>");
             out.println("<body>"); 
-            out.print("<table id=\"tbl1\">");
+            out.print("<table id=\"fruitTbl\" aline=\"center\">");
 
             for (int i = 0; i < 3; i++){
                 out.println("<tr>");
                 for (int j = 0; j < 3; j++){
-                    out.println("<td> Apple " + j + "</td>");
+                    out.println("<td> Fruit " + j + "</td>");
                 }
                 out.println("</tr>");
             }

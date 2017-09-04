@@ -21,8 +21,9 @@ h1 {
 table, tr, td {
    border: 1px solid powderblue;
    border-collapse: collapse;
+   margin: auto;
 }
 
 th, td {
-    padding: 15px;
+    padding: 20px;
 }

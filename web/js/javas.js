@@ -10,7 +10,7 @@ var max = 3;
 var itemArray = ["Apple", "PineApple", "Mango", "Orange"];
 
 function filltable(){
-    var tbl=document.getElementById('tbl1');
+    var tbl=document.getElementById('fruitTbl');
 
     var rowArray=tbl.rows;
     //alert(rows.length);
