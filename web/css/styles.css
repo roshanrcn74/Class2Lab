@@ -9,13 +9,14 @@ and open the template in the editor.
 */
 
 body {
- background-color: #333333;
+ background-color: yellowgreen;
  color: #FFFFFF;
 }
 h1 {
- color: #FFFF33;
+ color: blue;
  text-align: center;
  font: italic 200% fantasy;
+
 }
 
 table, tr, td {
