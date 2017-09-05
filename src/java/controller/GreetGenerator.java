@@ -36,7 +36,7 @@ public class GreetGenerator extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         String personName = request.getParameter("name");
         WelcomeService welcomeService = new WelcomeService();
-        String welcomeMessage = welcomeService.getGreetingMessage(personName);
+        String welcomeMessage = welcomeService.produceGreetingMessage(personName);
         //String welcomeMessage = " Period of the Day " + name + ". !Welcome";
         request.setAttribute("welcomeMsg", welcomeMessage);
         

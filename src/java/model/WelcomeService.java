@@ -26,7 +26,7 @@ public class WelcomeService {
         }
     }
     
-    public String getGreetingMessage(String name){       
+    public String produceGreetingMessage(String name){       
         return getPartsOfDay() + ", " + name + ". Welcome!";
     }
 }
